@@ -1,0 +1,16 @@
+{
+  "name": "shyam-colour-backend",
+  "version": "1.0.0",
+  "description": "Node.js & Express.js backend for Shyam Colour with 3-way Nodemailer email routing",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "nodemailer": "^6.10.0"
+  }
+}
