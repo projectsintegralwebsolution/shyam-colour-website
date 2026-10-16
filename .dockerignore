@@ -1,0 +1,12 @@
+node_modules
+.next
+.git
+.env*.local
+website/node_modules
+website/.next
+server/node_modules
+processed_images
+extracted_assets
+*.zip
+*.pdf
+*.docx
