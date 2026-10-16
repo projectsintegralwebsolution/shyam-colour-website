@@ -234,7 +234,7 @@ export default function Footer() {
           <div className="text-slate-300">
             Developed by{" "}
             <a
-              href="https://integralwebsolution.in/"
+              href="https://integralwebsolution.com/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-amber-400 hover:text-amber-300 font-semibold underline underline-offset-4 transition-colors"

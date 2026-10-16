@@ -83,7 +83,7 @@ export default function HeroSlider() {
             idx === current ? "opacity-100 z-10 pointer-events-auto" : "opacity-0 z-0 pointer-events-none"
           }`}
         >
-          {/* Background Product Image with subtle zoom */}
+          {/* Background Product Image */}
           <div className="absolute inset-0">
             <Image
               src={slide.image}
@@ -94,9 +94,8 @@ export default function HeroSlider() {
                 idx === current ? "scale-105" : "scale-100"
               }`}
             />
-            {/* Multi-layered dark industrial gradient overlay for pristine text readability */}
-            <div className="absolute inset-0 bg-gradient-to-r from-slate-950/95 via-slate-950/85 to-slate-950/60" />
-            <div className="absolute inset-0 bg-gradient-to-t from-slate-950 via-transparent to-slate-950/40" />
+            {/* Smooth clean backdrop gradient - clear image on right, readable text on left */}
+            <div className="absolute inset-0 bg-gradient-to-r from-slate-950/90 via-slate-950/60 to-transparent" />
           </div>
 
           {/* Slide Content */}

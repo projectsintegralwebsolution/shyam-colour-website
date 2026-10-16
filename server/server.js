@@ -193,7 +193,7 @@ app.post('/api/enquiry', async (req, res) => {
             </div>
             <div style="background-color: #f1f5f9; padding: 14px; text-align: center; font-size: 11px; color: #64748b;">
               &copy; ${new Date().getFullYear()} SHYAM COLOUR. All rights reserved.<br/>
-              Developed by <a href="https://integralwebsolution.in/" style="color: #d4a017; text-decoration: none;">Integral Web Solution</a>
+              Developed by <a href="https://integralwebsolution.com/" style="color: #d4a017; text-decoration: none;">Integral Web Solution</a>
             </div>
           </div>
         `

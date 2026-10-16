@@ -17,6 +17,7 @@ import {
   ChevronRight,
   ArrowRight
 } from "lucide-react";
+import ProductGallery from "@/components/ProductGallery";
 
 interface ProductPageProps {
   params: Promise<{
@@ -89,76 +90,16 @@ export default async function ProductDetailPage({ params }: ProductPageProps) {
       <section className="py-16 bg-white border-b border-slate-200">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
-            {/* Left: Product Images Gallery */}
-            <div className="lg:col-span-6 space-y-4">
-              <div className="relative aspect-[4/3] w-full rounded-2xl overflow-hidden bg-slate-50 border border-slate-200 shadow-md flex items-center justify-center p-6">
-                <Image
-                  src={product.image}
-                  alt={product.name}
-                  fill
-                  priority
-                  sizes="(max-width: 1024px) 100vw, 50vw"
-                  className="object-contain p-4"
-                />
-                <span className="absolute top-4 left-4 px-3 py-1 rounded-full bg-slate-900/80 backdrop-blur-sm text-white text-xs font-bold tracking-wider uppercase">
-                  {product.categoryName}
-                </span>
-              </div>
-
-              {/* Additional Product Images if present */}
-              {product.additionalImages && product.additionalImages.length > 0 && (
-                <div className="grid grid-cols-3 gap-3">
-                  <div className="relative aspect-[4/3] rounded-xl overflow-hidden bg-slate-50 border-2 border-amber-500 p-2">
-                    <Image
-                      src={product.image}
-                      alt={`${product.name} Main View`}
-                      fill
-                      sizes="33vw"
-                      className="object-contain"
-                    />
-                  </div>
-                  {product.additionalImages.map((img, idx) => (
-                    <div
-                      key={idx}
-                      className="relative aspect-[4/3] rounded-xl overflow-hidden bg-slate-50 border border-slate-200 p-2 hover:border-amber-400 transition-colors"
-                    >
-                      <Image
-                        src={img}
-                        alt={`${product.name} Variant ${idx + 1}`}
-                        fill
-                        sizes="33vw"
-                        className="object-contain"
-                      />
-                    </div>
-                  ))}
-                </div>
-              )}
-
-              {/* Instant WhatsApp Order / Call Bar */}
-              <div className="p-4 rounded-xl bg-emerald-50 border border-emerald-200 flex flex-col sm:flex-row items-center justify-between gap-4">
-                <div className="flex items-center gap-3">
-                  <div className="w-10 h-10 rounded-full bg-[#25D366] text-white flex items-center justify-center flex-shrink-0">
-                    <MessageCircle className="w-5 h-5 fill-white stroke-none" />
-                  </div>
-                  <div>
-                    <h4 className="text-sm font-bold text-emerald-950">
-                      Need Instant Specifications?
-                    </h4>
-                    <p className="text-xs text-emerald-700">
-                      Chat directly with our factory coordinator on WhatsApp
-                    </p>
-                  </div>
-                </div>
-
-                <a
-                  href={whatsappUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="w-full sm:w-auto px-5 py-2.5 rounded-lg bg-[#25D366] hover:bg-[#20ba59] text-white font-bold text-xs tracking-wide shadow-md transition-all text-center flex-shrink-0"
-                >
-                  WhatsApp Enquiry
-                </a>
-              </div>
+            {/* Left: Product Images Gallery with Interactive Thumbnails */}
+            <div className="lg:col-span-6">
+              <ProductGallery
+                productName={product.name}
+                categoryName={product.categoryName}
+                mainImage={product.image}
+                additionalImages={product.additionalImages}
+                phone={COMPANY_DETAILS.phone}
+                whatsappMessage={whatsappMessage}
+              />
             </div>
 
             {/* Right: Technical Specs & Information */}
