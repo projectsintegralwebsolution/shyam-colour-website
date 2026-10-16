@@ -180,16 +180,16 @@ export default function ContactPage() {
             </p>
           </div>
 
-          <div className="w-full h-[400px] rounded-2xl overflow-hidden border border-slate-200 shadow-lg bg-slate-200">
+          <div className="w-full h-[450px] rounded-2xl overflow-hidden border border-slate-200 shadow-lg bg-slate-200">
             <iframe
               title="Shyam Colour Factory Location"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15061.328458763567!2d72.8464303!3d19.3888362!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7a96677fbe6db%3A0x6b840e79ecb9b8c3!2sChinchpada%2C%20Vasai%20East%2C%20Vasai-Virar%2C%20Maharashtra%20401208!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5229.505924545963!2d72.8542805580853!3d19.41146778825468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7a9288e373cbb%3A0xaca0e5e56e09dbcd!2sShyam%20Colour!5e1!3m2!1sen!2sin!4v1792130165962!5m2!1sen!2sin"
               width="100%"
               height="100%"
               style={{ border: 0 }}
-              allowFullScreen={false}
+              allowFullScreen={true}
               loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
+              referrerPolicy="strict-origin-when-cross-origin"
             />
           </div>
         </div>
