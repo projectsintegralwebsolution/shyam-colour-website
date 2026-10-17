@@ -214,7 +214,7 @@ export default function Footer() {
             </div>
 
             <div className="pt-2 text-xs text-slate-400">
-              <span className="text-slate-500">Director: </span>
+              <span className="text-slate-500">CEO: </span>
               <span className="text-slate-300 font-medium">{COMPANY_DETAILS.director}</span>
             </div>
           </div>

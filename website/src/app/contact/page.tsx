@@ -140,7 +140,8 @@ export default function ContactPage() {
                         Factory Management
                       </h4>
                       <p className="text-sm font-bold text-slate-900 mt-1">
-                        CEO: Mr. Bipin Mishra and Namita Mahadik
+                        CEO: Mr. Bipin Mishra <br />
+                        Namita Mahadik
                       </p>
                       <p className="text-xs text-slate-500 mt-0.5">
                         Personal attention to corporate and contract accounts
