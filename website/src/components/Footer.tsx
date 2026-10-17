@@ -185,6 +185,14 @@ export default function Footer() {
               </a>
 
               <a
+                href={`tel:${COMPANY_DETAILS.phone2}`}
+                className="flex items-center gap-2 text-slate-300 hover:text-amber-400 transition-colors"
+              >
+                <Phone className="w-4 h-4 text-amber-500 flex-shrink-0" />
+                <span>+91 {COMPANY_DETAILS.phone2}</span>
+              </a>
+
+              <a
                 href={`mailto:${COMPANY_DETAILS.email}`}
                 className="flex items-center gap-2 text-slate-300 hover:text-amber-400 transition-colors"
               >

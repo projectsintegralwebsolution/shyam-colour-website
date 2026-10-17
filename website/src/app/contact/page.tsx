@@ -84,16 +84,25 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h4 className="text-xs font-bold uppercase tracking-wider text-slate-500">
-                        Direct Phone Line
+                        Direct Phone Lines
                       </h4>
-                      <a
-                        href={`tel:${COMPANY_DETAILS.phone}`}
-                        className="text-base font-bold text-slate-900 hover:text-amber-600 transition-colors block mt-1"
-                      >
-                        +91 {COMPANY_DETAILS.phone}
-                      </a>
+                      <div className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-3 mt-1">
+                        <a
+                          href={`tel:${COMPANY_DETAILS.phone}`}
+                          className="text-base font-bold text-slate-900 hover:text-amber-600 transition-colors"
+                        >
+                          +91 {COMPANY_DETAILS.phone}
+                        </a>
+                        <span className="hidden sm:inline text-slate-300">/</span>
+                        <a
+                          href={`tel:${COMPANY_DETAILS.phone2}`}
+                          className="text-base font-bold text-slate-900 hover:text-amber-600 transition-colors"
+                        >
+                          +91 {COMPANY_DETAILS.phone2}
+                        </a>
+                      </div>
                       <p className="text-xs text-slate-500 mt-0.5">
-                        Direct call for quotes and order dispatches
+                        Direct calls for quotes and order dispatches
                       </p>
                     </div>
                   </div>
@@ -131,7 +140,7 @@ export default function ContactPage() {
                         Factory Management
                       </h4>
                       <p className="text-sm font-bold text-slate-900 mt-1">
-                        Director: {COMPANY_DETAILS.director}
+                        CEO: Mr. Bipin Mishra and Namita Mahadik
                       </p>
                       <p className="text-xs text-slate-500 mt-0.5">
                         Personal attention to corporate and contract accounts

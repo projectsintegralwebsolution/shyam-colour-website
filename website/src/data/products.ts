@@ -31,8 +31,11 @@ export const COMPANY_DETAILS = {
   commitmentStatement: "Delivering the Right Quality to the Right Customer.",
   establishedYear: 2021,
   director: "Mr. Bipin Mishra",
+  ceos: "Mr. Bipin Mishra & Namita Mahadik",
   phone: "8451845284",
   formattedPhone: "+91 84518 45284",
+  phone2: "8459944934",
+  formattedPhone2: "+91 84599 44934",
   email: "bipin.mshr@gmail.com",
   address: {
     line1: "Gala No. 7 & 8, Goodwill Industry",
@@ -248,10 +251,10 @@ export const PRODUCTS: Product[] = [
     name: "Contractor Multi-Size Roller Refill Set (2\", 4\", 9\")",
     category: "roller-refills",
     categoryName: "Roller Refill Sleeves",
-    shortDesc: "Comprehensive size range of red-striped contractor sleeves covering broad walls, trim, and tight architectural corners.",
-    description: "Shyam Colour's wide spectrum of professional painting tools spans from 2 inches to 10 inches. This multi-size contractor assortment demonstrates our versatile manufacturing capability, delivering matching fabric density across large 9-inch wall rollers, 4-inch trim rollers, and 2-inch mini touch-up rollers.",
+    shortDesc: "Comprehensive size range of yellow-striped contractor sleeves covering broad walls, trim, and tight architectural corners.",
+    description: "Shyam Colour's wide spectrum of professional painting tools spans from 2 inches to 10 inches. This signature yellow-stripe contractor assortment demonstrates our versatile manufacturing capability, delivering matching fabric density across large 9-inch wall rollers, 4-inch trim rollers, and 2-inch mini touch-up rollers.",
     sizes: ["2 Inch (50 mm)", "4 Inch (100 mm)", "9 Inch (225 mm)"],
-    materials: ["High-durability acrylic pile with red spiral tracers", "Reinforced inner sleeves"],
+    materials: ["High-durability acrylic pile with signature yellow spiral tracers", "Reinforced inner sleeves"],
     applications: [
       "Trim, doors, cabinetry and radiator edges (2\" & 4\")",
       "Expansive wall and ceiling spans (9\")",
@@ -265,10 +268,10 @@ export const PRODUCTS: Product[] = [
       "Ideal bundle for paint brand private-label programs"
     ],
     image: "/images/roller-refill-trio-sizes.jpg",
-    additionalImages: ["/images/roller-refill-redstripe-pair.jpg", "/images/roller-refill-rainbow-stripe.jpg"],
+    additionalImages: ["/images/roller-refill-yellow-stripe.jpg", "/images/roller-refill-white-plush.jpg"],
     specifications: {
       "Sizes Included": "2-inch, 4-inch, and 9-inch variants",
-      "Pattern": "Red spiral stripe contractor design",
+      "Pattern": "Signature yellow spiral stripe contractor design",
       "Core Construction": "Solvent-tolerant rigid core",
       "Manufacturing Range": "Available up to 10-inch custom variants",
       "Packaging": "Available in bulk carton packs or customized kits"
@@ -463,6 +466,117 @@ export const PRODUCTS: Product[] = [
       "Color Variants": "Green plush / Blue plush variants",
       "Recommended Coatings": "Elastomeric, cementitious paints, thick texture coats",
       "Manufacturing Minimums": "Contact for bulk and OEM run volumes"
+    }
+  },
+  {
+    id: "p13",
+    slug: "scr-commercial-red-handle-roller-pack",
+    name: "SCR Commercial Red-Grip Complete Roller Set (Packaged)",
+    category: "paint-rollers",
+    categoryName: "Complete Paint Rollers",
+    shortDesc: "Single-wire steel roller frame with high-grip red handle and sealed SCR green fabric refill sleeve.",
+    description: "Professional packaged roller set manufactured by Shyam Colour. Features a balanced single-wire frame with zinc electroplating, an ergonomic red molded polymer handle, and a sealed SCR-branded green nap refill engineered for smooth emulsion flow and maximum durability.",
+    sizes: ["9 Inch (225 mm)", "10 Inch (250 mm)"],
+    materials: [
+      "Galvanized high-tensile wire",
+      "Ergonomic polymer handle",
+      "High-density green fabric refill",
+      "Protective retail packaging"
+    ],
+    applications: [
+      "Interior wall & ceiling emulsions",
+      "Exterior smooth masonry",
+      "Commercial and residential painting",
+      "Contractor & retail distribution"
+    ],
+    features: [
+      "Sealed tamper-evident SCR retail pouch",
+      "Heavy-gauge electroplated frame prevents wobbling",
+      "Uniform paint distribution with zero fiber loss",
+      "Ergonomic anti-slip grip with extension pole socket"
+    ],
+    image: "/images/roller-pack-red-green.jpg",
+    additionalImages: ["/images/roller-handle-red-long.jpg", "/images/roller-assembly-textured.jpg"],
+    specifications: {
+      "Frame Diameter": "6 mm zinc-plated steel",
+      "Refill Length": "9 Inch (225 mm)",
+      "Nap Type": "High-density green synthetic plush",
+      "Handle Grip": "Molded red anti-slip handle with hanging hole",
+      "Packaging": "Branded SCR sealed retail pouch"
+    }
+  },
+  {
+    id: "p14",
+    slug: "scr-pro-finish-blue-handle-roller-pack",
+    name: "SCR Pro-Finish Blue-Grip Complete Roller Set (Packaged)",
+    category: "paint-rollers",
+    categoryName: "Complete Paint Rollers",
+    shortDesc: "Heavy-gauge offset wire roller frame with ergonomic royal blue grip and sealed SCR yellow-stripe refill sleeve.",
+    description: "Engineered for superior wall finish and contractor comfort. This packaged set combines our precision offset wire frame with an anti-fatigue royal blue ergonomic handle and a sealed SCR yellow-stripe woven refill sleeve that guarantees smooth, lint-free paint application.",
+    sizes: ["9 Inch (225 mm)"],
+    materials: [
+      "Heavy-gauge zinc-plated steel rod",
+      "Molded ergonomic blue handle",
+      "Woven yellow-stripe synthetic fabric refill",
+      "Sealed SCR retail sleeve"
+    ],
+    applications: [
+      "High-end interior wall finishes",
+      "Latex, acrylic, and water-based emulsions",
+      "Architectural coating and drywall",
+      "Retail hardware & paint store display"
+    ],
+    features: [
+      "Factory sealed in authentic SCR blue-and-white retail pouch",
+      "Ergonomic ribbed blue grip reduces painter fatigue",
+      "Signature yellow-stripe sleeve ensures streak-free coverage",
+      "Fits standard threaded extension poles"
+    ],
+    image: "/images/roller-pack-blue-white.jpg",
+    additionalImages: ["/images/roller-refill-yellow-stripe.jpg", "/images/roller-assembly-white-poly.jpg"],
+    specifications: {
+      "Frame Construction": "Precision-offset galvanized steel wire",
+      "Refill Length": "9 Inch (225 mm)",
+      "Nap Pattern": "Woven microfiber with helical yellow stripes",
+      "Handle Color": "Royal Blue industrial polymer",
+      "Packaging": "Sealed SCR retail pouch with display hang-hole"
+    }
+  },
+  {
+    id: "p15",
+    slug: "scr-mini-roller-kit-3-refills",
+    name: "SCR 4-Inch Multi-Refill Mini Roller Kit (3 Refills + Frame)",
+    category: "paint-rollers",
+    categoryName: "Complete Paint Rollers",
+    shortDesc: "Compact 4-inch painting kit featuring 3 premium white microfiber refill sleeves and a balanced yellow-grip wire frame in a sealed pack.",
+    description: "Versatile contractor-grade mini roller kit manufactured at Shyam Colour's Vasai East facility. Includes three 4-inch (100 mm) ultra-smooth white microfiber refills and a durable single-wire handle with an ergonomic yellow grip. Perfect for trim, corners, doors, cabinets, and narrow spaces.",
+    sizes: ["4 Inch (100 mm)"],
+    materials: [
+      "High-density lint-free white microfiber",
+      "Galvanized steel rod",
+      "Molded yellow handle",
+      "Transparent heavy-duty SCR pack"
+    ],
+    applications: [
+      "Door frames, cabinets, and architectural trim",
+      "Narrow wall strips, radiators, and behind pipes",
+      "Gloss, semi-gloss, and satin finishes",
+      "Quick touch-ups and DIY painting"
+    ],
+    features: [
+      "All-in-one kit: 3 replacement sleeves plus 1 frame",
+      "Ultra-dense microfiber nap delivers mirror-smooth finish",
+      "Lightweight, agile frame for tight access spaces",
+      "Sealed retail packaging with clear product view"
+    ],
+    image: "/images/roller-kit-3refill-yellow.jpg",
+    additionalImages: ["/images/roller-single-wire-yellow.jpg", "/images/roller-refill-trio-sizes.jpg"],
+    specifications: {
+      "Roller Width": "4 Inch (100 mm)",
+      "Package Contents": "1x Wire Frame with Yellow Handle + 3x White Refill Sleeves",
+      "Nap Type": "Lint-free short-pile microfiber",
+      "Wire Thickness": "5.5 mm corrosion-resistant wire",
+      "Packaging": "Heavy-gauge clear retail pouch with red SCR header"
     }
   }
 ];

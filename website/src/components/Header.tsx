@@ -58,16 +58,25 @@ export default function Header() {
           </div>
 
           <div className="flex items-center gap-4 sm:gap-6 ml-auto">
-            <a
-              href={`tel:${COMPANY_DETAILS.phone}`}
-              className="hover:text-amber-400 transition-colors flex items-center gap-1"
-            >
+            <div className="flex items-center gap-1.5 sm:gap-2">
               <Phone className="w-3 h-3 text-amber-500" />
-              <span>{COMPANY_DETAILS.formattedPhone}</span>
-            </a>
+              <a
+                href={`tel:${COMPANY_DETAILS.phone}`}
+                className="hover:text-amber-400 transition-colors"
+              >
+                {COMPANY_DETAILS.formattedPhone}
+              </a>
+              <span className="text-slate-500 hidden sm:inline">|</span>
+              <a
+                href={`tel:${COMPANY_DETAILS.phone2}`}
+                className="hover:text-amber-400 transition-colors hidden sm:inline"
+              >
+                {COMPANY_DETAILS.formattedPhone2}
+              </a>
+            </div>
             <a
               href={`mailto:${COMPANY_DETAILS.email}`}
-              className="hover:text-amber-400 transition-colors hidden sm:flex items-center gap-1"
+              className="hover:text-amber-400 transition-colors hidden md:flex items-center gap-1"
             >
               <Mail className="w-3 h-3 text-amber-500" />
               <span>{COMPANY_DETAILS.email}</span>
@@ -285,7 +294,7 @@ export default function Header() {
             <div className="text-xs text-slate-600 space-y-1.5 pt-2">
               <p className="flex items-center gap-2">
                 <Phone className="w-3.5 h-3.5 text-amber-600" />
-                <span>Call: {COMPANY_DETAILS.formattedPhone}</span>
+                <span>Call: {COMPANY_DETAILS.formattedPhone} / {COMPANY_DETAILS.formattedPhone2}</span>
               </p>
               <p className="flex items-center gap-2">
                 <Mail className="w-3.5 h-3.5 text-amber-600" />
