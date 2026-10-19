@@ -508,6 +508,183 @@ export const PRODUCTS: Product[] = [
       "Wire Thickness": "5.5 mm corrosion-resistant wire",
       "Packaging": "Heavy-gauge clear retail pouch with red SCR header"
     }
+  },
+  {
+    id: "p16",
+    slug: "pro-wall-single-wire-roller-assembly-yellow",
+    name: "Pro-Wall Single-Wire Roller Assembly (Yellow Handle & Blue-Yellow Stripe Sleeve)",
+    category: "paint-rollers",
+    categoryName: "Complete Paint Rollers",
+    shortDesc: "Precision single-wire roller frame with signature amber-yellow grip handle and plush blue-yellow helical stripe refill sleeve.",
+    description: "High-performance complete paint roller engineered for effortless interior wall and ceiling coverage. Combines Shyam Colour's precision single-wire galvanized steel frame with an ergonomic amber-yellow polymer grip and a high-density, multi-color helical stripe microfiber refill sleeve for lint-free, uniform paint distribution.",
+    sizes: ["9 Inch (225 mm)"],
+    materials: [
+      "Galvanized heavy-duty steel wire rod",
+      "Molded ergonomic amber-yellow handle",
+      "Thermo-bonded dual-color helical stripe plush pile"
+    ],
+    applications: [
+      "Interior plaster and drywall walls",
+      "Ceilings and smooth masonry",
+      "Water-based emulsions and primers",
+      "Residential and commercial interior painting"
+    ],
+    features: [
+      "Pre-assembled frame and sleeve ready for immediate painting",
+      "Threaded handle base fits standard extension poles",
+      "Helical spiral stripes provide visual rolling indicator and uniform pickup",
+      "Smooth low-friction rotation reduces painter fatigue"
+    ],
+    image: "/images/roller-assembly-blue-yellow-stripe.jpg",
+    additionalImages: ["/images/roller-handle-wire-orange.jpg", "/images/roller-refill-green-yellow-spiral.jpg"],
+    specifications: {
+      "Assembly Type": "Pre-mounted Single-Wire Frame + Refill Sleeve",
+      "Roller Length": "9 Inch (225 mm)",
+      "Frame Wire Gauge": "6 mm zinc-plated steel",
+      "Handle Color": "Signature Amber Yellow",
+      "Nap Height": "14 mm medium-density pile",
+      "Core Diameter": "Standard 38 mm (1.5 Inch)"
+    }
+  },
+  {
+    id: "p17",
+    slug: "high-density-sponge-texture-roller-refill",
+    name: "High-Density Reticulated Yellow Sponge Texture Roller Refill",
+    category: "roller-refills",
+    categoryName: "Roller Refill Sleeves",
+    shortDesc: "Open-cell reticulated sponge roller sleeve for decorative textured finishes, stippling, and faux effects.",
+    description: "Specialized reticulated yellow sponge foam roller refill engineered for textured wall coatings, stipple effects, faux finishing, and uniform solvent application. The open-cell porous matrix holds high liquid volume while creating distinct stippled and patterned textures on interior and exterior walls.",
+    sizes: ["9 Inch (225 mm)", "7 Inch (175 mm)"],
+    materials: [
+      "Heavy-duty reticulated polyurethane foam",
+      "Solvent-resistant PVC inner core"
+    ],
+    applications: [
+      "Decorative wall texturing and stipple finishes",
+      "Faux painting, sponge effects, and glazing",
+      "Primer and sealant application on rough surfaces",
+      "Industrial coatings and tile adhesive spread"
+    ],
+    features: [
+      "Open-pore reticulated sponge structure creates rich, uniform texture",
+      "Highly absorbent foam holds generous coating volume",
+      "Solvent-tolerant inner core fits standard 9-inch wire frames",
+      "Washable and reusable across multiple painting cycles"
+    ],
+    image: "/images/roller-refill-sponge-yellow.jpg",
+    additionalImages: ["/images/roller-refill-white-plush.jpg", "/images/roller-refill-yellow-stripe.jpg"],
+    specifications: {
+      "Refill Type": "Reticulated Sponge / Foam Texture Refill",
+      "Length": "9 Inch (225 mm)",
+      "Core Diameter": "38 mm standard cage/rod fit",
+      "Pore Structure": "Medium-coarse open cell",
+      "Material": "Industrial-grade open-cell polyurethane"
+    }
+  },
+  {
+    id: "p18",
+    slug: "pro-coverage-green-yellow-helical-stripe-refill",
+    name: "Pro-Coverage Green & Yellow Helical Stripe Roller Refill",
+    category: "roller-refills",
+    categoryName: "Roller Refill Sleeves",
+    shortDesc: "Dual-tone green and yellow spiral woven refill sleeve engineered for high-capacity emulsion transfer.",
+    description: "Engineered for professional painters demanding rapid paint pick-up and splatter-free transfer. Crafted with high-grade synthetic yarn woven with signature green and yellow spiral tracking lines, thermo-fused to a rigid core for long-lasting durability on plaster and drywall.",
+    sizes: ["9 Inch (225 mm)"],
+    materials: [
+      "Thermo-bonded synthetic woven pile",
+      "Impact-resistant rigid inner core"
+    ],
+    applications: [
+      "Interior smooth and semi-smooth plastered walls",
+      "Ceilings, hallways, and living spaces",
+      "Water-based acrylic emulsions and distempers",
+      "Contractor high-speed wall coating"
+    ],
+    features: [
+      "Dual green-yellow helical stripes maintain even paint dispersal",
+      "Dense yarn density virtually eliminates lint and shedding",
+      "Thermo-fused core prevents delamination in water or mild solvents",
+      "Delivers smooth, ridge-free wall coverage"
+    ],
+    image: "/images/roller-refill-green-yellow-spiral.jpg",
+    additionalImages: ["/images/roller-refill-green-gold-plush.jpg", "/images/roller-refill-yellow-stripe.jpg"],
+    specifications: {
+      "Nap Height": "12 mm medium pile",
+      "Core Diameter": "38 mm ID standard",
+      "Length": "9 Inch (225 mm)",
+      "Stripe Pattern": "Green and Yellow dual spiral",
+      "Bonding Process": "Advanced thermo-fusion"
+    }
+  },
+  {
+    id: "p19",
+    slug: "heavy-duty-green-gold-high-capacity-plush-refill",
+    name: "Heavy-Duty Green & Gold High-Capacity Plush Roller Refill",
+    category: "roller-refills",
+    categoryName: "Roller Refill Sleeves",
+    shortDesc: "Extra-plush green and gold microfiber nap refill built for high paint pickup on walls and ceilings.",
+    description: "A thick, high-pile contractor roller sleeve engineered for high-coverage wall painting. Features an ultra-dense plush fabric blend in vibrant green and gold weave that holds maximum paint volume per dip, drastically speeding up application across large residential and commercial wall spans.",
+    sizes: ["9 Inch (225 mm)"],
+    materials: [
+      "High-pile acrylic-polyester plush yarn",
+      "Moisture-resistant reinforced core"
+    ],
+    applications: [
+      "Textured walls, sand-finish plaster, and masonry",
+      "High-build emulsions, primers, and exterior paints",
+      "Commercial spaces, warehouse walls, and ceilings",
+      "Multi-room residential painting"
+    ],
+    features: [
+      "High paint holding capacity cuts reload time in half",
+      "Resilient plush fibers resist matting during all-day usage",
+      "Reinforced thermal core ensures true, wobble-free spinning",
+      "Beveled edges reduce roller tram lines and bead marks"
+    ],
+    image: "/images/roller-refill-green-gold-plush.jpg",
+    additionalImages: ["/images/roller-refill-green-yellow-spiral.jpg", "/images/roller-refill-teal-red.jpg"],
+    specifications: {
+      "Nap Height": "16 mm deep plush pile",
+      "Core Diameter": "38 mm standard fit",
+      "Length": "9 Inch (225 mm)",
+      "Color Style": "Green and Gold contractor plush",
+      "Core Construction": "Solvent-tolerant rigid core"
+    }
+  },
+  {
+    id: "p20",
+    slug: "scr-contractor-tiger-stripe-yellow-black-refill",
+    name: "SCR Contractor Tiger-Stripe Roller Refill (Yellow & Black)",
+    category: "roller-refills",
+    categoryName: "Roller Refill Sleeves",
+    shortDesc: "Heavy-duty yellow plush refill with signature black helical stripes for maximum durability and coverage.",
+    description: "Known among painting contractors as the classic 'Tiger Stripe' roller, this premium refill combines a high-density golden-yellow plush body with distinctive black spiral tracers. Designed to withstand abrasive rough surfaces, thick coatings, and rigorous daily contractor use while ensuring superior paint release.",
+    sizes: ["9 Inch (225 mm)", "4 Inch (100 mm)"],
+    materials: [
+      "Tough multi-filament synthetic plush",
+      "Solvent-proof thermo-fused core"
+    ],
+    applications: [
+      "Interior and exterior plaster, brick, and concrete",
+      "Heavy emulsions, primers, and weather-proof paints",
+      "High-production commercial and industrial painting",
+      "Contractor bulk fleet application"
+    ],
+    features: [
+      "Signature black spiral tiger tracers for visual rolling alignment",
+      "High-abrasion synthetic fibers resist shedding on rough plaster",
+      "Solvent-proof core resists paints, primers, and cleanup solvents",
+      "Maximum liquid pickup for rapid wall and ceiling coverage"
+    ],
+    image: "/images/roller-refill-tiger-stripe-yellow-black.jpg",
+    additionalImages: ["/images/roller-refill-yellow-stripe.jpg", "/images/roller-refill-sponge-yellow.jpg"],
+    specifications: {
+      "Nap Height": "15 mm heavy-duty pile",
+      "Core Diameter": "38 mm standard cage/rod fit",
+      "Length": "9 Inch (225 mm)",
+      "Pattern": "Yellow body with black spiral tiger stripes",
+      "Core Spec": "Thermo-fused solvent-resistant polymer"
+    }
   }
 ];
 
@@ -595,5 +772,26 @@ export const GALLERY_ITEMS = [
     category: "Complete Rollers",
     image: "/images/roller-assembly-textured.jpg",
     desc: "Pre-mounted contractor roller ready for immediate site application."
+  },
+  {
+    id: "g13",
+    title: "Pro-Wall Single-Wire Yellow Assembly",
+    category: "Complete Rollers",
+    image: "/images/roller-assembly-blue-yellow-stripe.jpg",
+    desc: "Single-wire precision frame with ergonomic yellow handle and blue-yellow stripe sleeve."
+  },
+  {
+    id: "g14",
+    title: "Reticulated Sponge Texture Refill",
+    category: "Refill Sleeves",
+    image: "/images/roller-refill-sponge-yellow.jpg",
+    desc: "Open-cell reticulated sponge sleeve for wall textures, stipples, and faux finishes."
+  },
+  {
+    id: "g15",
+    title: "Contractor Tiger-Stripe Roller Refill",
+    category: "Refill Sleeves",
+    image: "/images/roller-refill-tiger-stripe-yellow-black.jpg",
+    desc: "Signature high-density golden-yellow plush refill with black helical spiral stripes."
   }
 ];
