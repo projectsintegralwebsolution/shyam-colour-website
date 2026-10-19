@@ -74,50 +74,10 @@ export const PRODUCT_CATEGORIES: ProductCategory[] = [
     shortDesc: "Premium woven, polyester, acrylic, and microfiber roller refills engineered for walls, masonry, ceilings, and enamels.",
     description: "High-density nap refills designed for smooth, semi-rough, and rough surfaces with thermo-fusion bonding that prevents sleeve slippage or delamination.",
     image: "/images/roller-refill-white-plush.jpg"
-  },
-  {
-    id: "roller-assemblies",
-    slug: "roller-assemblies",
-    name: "Specialty & Texture Rollers",
-    shortDesc: "Custom-formulated specialty rollers for textured finishes, high-build coatings, and exterior industrial painting.",
-    description: "Heavy-duty texture nap rollers engineered for exterior emulsion, stippling, primer coats, and high-coverage industrial applications.",
-    image: "/images/roller-textured-green.jpg"
   }
 ];
 
 export const PRODUCTS: Product[] = [
-  {
-    id: "p1",
-    slug: "premium-exterior-textured-roller",
-    name: "Premium Exterior Textured Paint Roller",
-    category: "roller-assemblies",
-    categoryName: "Specialty & Texture Rollers",
-    shortDesc: "High-density green nap roller complete with ergonomic red grip handle for textured and rough masonry surfaces.",
-    description: "Engineered specifically for rough plaster, exterior weather-resistant coatings, and high-build emulsions. The heavy-gauge zinc-plated wire frame prevents flexing under load, while the durable green synthetic pile delivers maximum paint holding capacity with consistent release.",
-    sizes: ["9 Inch (225 mm)", "10 Inch (250 mm)"],
-    materials: ["High-density synthetic pile", "Galvanized high-carbon steel rod", "Virgin polymer ergonomic handle"],
-    applications: [
-      "Exterior rough plaster and masonry",
-      "Textured wall finishes and heavy emulsions",
-      "Primer and weather-shield coatings",
-      "Commercial building exteriors"
-    ],
-    features: [
-      "Heavy-duty threaded handle fits standard extension poles",
-      "Reinforced core prevents cage slippage",
-      "Maximum paint retention for fast exterior coverage",
-      "High abrasion resistance on coarse surfaces"
-    ],
-    image: "/images/roller-textured-green.jpg",
-    additionalImages: ["/images/roller-refill-green-blue-plush.jpg", "/images/roller-handle-red-long.jpg"],
-    specifications: {
-      "Core Diameter": "38 mm / 44 mm",
-      "Wire Gauge": "6 mm heavy-duty steel",
-      "Handle Type": "Ergonomic polypropylene grip with extension thread",
-      "Nap Height": "18 mm deep-pile",
-      "Applicable Coatings": "Exterior emulsions, textured paints, primers"
-    }
-  },
   {
     id: "p2",
     slug: "heavy-duty-5-wire-cage-frame",
@@ -141,44 +101,13 @@ export const PRODUCTS: Product[] = [
       "Internal pole threading with anti-slip grip texture"
     ],
     image: "/images/roller-cage-5wire-red.jpg",
-    additionalImages: ["/images/roller-cage-5wire-yellow.jpg", "/images/roller-assembly-textured.jpg"],
+    additionalImages: ["/images/roller-handle-red-long.jpg", "/images/roller-assembly-textured.jpg"],
     specifications: {
       "Frame Type": "5-Wire contractor cage",
       "Rod Diameter": "7.8 mm heavy-duty",
       "Handle Color": "Industrial Red (custom colors available for OEM)",
       "Cage Diameter": "Standard 38 mm (1.5 Inch)",
       "Endcaps": "Nylon composite wear-resistant caps"
-    }
-  },
-  {
-    id: "p3",
-    slug: "classic-5-wire-cage-frame-yellow",
-    name: "Classic 5-Wire Cage Roller Frame (Yellow)",
-    category: "roller-handles",
-    categoryName: "Paint Roller Handles & Frames",
-    shortDesc: "Precision-balanced 5-wire cage handle featuring signature SCR amber-yellow ergonomic grip.",
-    description: "A signature manufacturing product from Shyam Colour, this 9-inch 5-wire cage handle provides dependable sleeve retention and smooth rolling dynamics. Crafted with rigid zinc-coated steel wire and industrial resin grip designed for prolonged contractor shifts.",
-    sizes: ["9 Inch (225 mm)"],
-    materials: ["Bright zinc-plated steel rod", "Polypropylene composite grip", "Durable end rings"],
-    applications: [
-      "Interior emulsions and acrylic paints",
-      "High-production commercial coating",
-      "Standard refill sleeve mounting"
-    ],
-    features: [
-      "Balanced weight distribution for effortless rolling",
-      "Quick refill slide-on and slide-off design",
-      "Resistant to paint solvents and cleaning thinners",
-      "Precision-welded cage spokes"
-    ],
-    image: "/images/roller-cage-5wire-yellow.jpg",
-    additionalImages: ["/images/roller-cage-5wire-red.jpg", "/images/roller-handle-wire-orange.jpg"],
-    specifications: {
-      "Frame Style": "5-Wire open cage",
-      "Wire Finish": "Electro-galvanized rust-resistant",
-      "Handle Color": "Signature Amber Yellow",
-      "Shaft Diameter": "7.5 mm",
-      "Compatibility": "All standard 9-inch roller sleeves"
     }
   },
   {
@@ -407,29 +336,30 @@ export const PRODUCTS: Product[] = [
   {
     id: "p11",
     slug: "complete-pro-wall-roller-assembly",
-    name: "Complete Pro-Wall Roller Assembly (Frame & Sleeve)",
-    category: "roller-assemblies",
-    categoryName: "Specialty & Texture Rollers",
-    shortDesc: "Fully assembled professional paint roller ready for out-of-the-box wall painting with balanced frame and plush sleeve.",
-    description: "The complete painting solution manufactured at Shyam Colour's Vasai East facility. Combines our signature balanced roller frame with an ultra-fine finish sleeve, saving contractors setup time and ensuring ideal frame-to-sleeve clearance.",
+    name: "Complete Pro-Wall Interior Roller Assembly (Frame & Sleeve)",
+    category: "paint-rollers",
+    categoryName: "Interior Roller",
+    shortDesc: "Fully assembled professional interior paint roller ready for out-of-the-box wall painting with balanced frame and plush sleeve.",
+    description: "The complete interior painting solution manufactured at Shyam Colour's Vasai East facility. Engineered specifically for interior wall emulsions, primers, and smooth finishes. Combines our signature balanced roller frame with an ultra-fine finish interior sleeve, saving contractors setup time and ensuring ideal frame-to-sleeve clearance.",
     sizes: ["9 Inch (225 mm)"],
     materials: ["Zinc-plated rigid frame", "High-density poly-blend refill", "Reinforced grip handle"],
     applications: [
       "Living room and commercial interior walls",
+      "Interior drywall and plastered walls",
       "Ceiling painting with extension rod",
-      "New construction plaster coats",
-      "Retail-ready paint shop packaging"
+      "New construction plaster coats and smooth finishes"
     ],
     features: [
       "Pre-assembled and ready for immediate painting",
       "Optimized rotational balance eliminates sleeve wobbling",
       "Standard extension pole screw socket",
-      "Available with custom private-label branding cards"
+      "Engineered for interior emulsion and primer coats"
     ],
     image: "/images/roller-assembly-textured.jpg",
     additionalImages: ["/images/roller-assembly-white-poly.jpg", "/images/roller-paint-blue-dot.jpg"],
     specifications: {
       "Assembly Type": "Pre-mounted frame + refill sleeve",
+      "Roller Type": "Interior Wall Roller Assembly",
       "Frame Style": "Single heavy wire with end guides",
       "Handle Type": "Ergonomic molded polymer with hanging loop",
       "Total Weight": "Approx. 280g balanced",
@@ -459,7 +389,7 @@ export const PRODUCTS: Product[] = [
       "Available in multiple vivid color blends for brand differentiation"
     ],
     image: "/images/roller-refill-green-blue-plush.jpg",
-    additionalImages: ["/images/roller-textured-green.jpg", "/images/roller-refill-trio-sizes.jpg"],
+    additionalImages: ["/images/roller-refill-teal-red.jpg", "/images/roller-refill-trio-sizes.jpg"],
     specifications: {
       "Nap Height": "20 mm extra-deep pile",
       "Core Spec": "Heavy-duty impact polymer",
@@ -591,10 +521,10 @@ export const GALLERY_ITEMS = [
   },
   {
     id: "g2",
-    title: "Signature Amber-Yellow 5-Wire Frame",
-    category: "Handles & Frames",
-    image: "/images/roller-cage-5wire-yellow.jpg",
-    desc: "Balanced 9-inch wire cage handle built for daily durability."
+    title: "SCR Pro-Finish Blue-Grip Complete Roller Set",
+    category: "Complete Rollers",
+    image: "/images/roller-pack-blue-white.jpg",
+    desc: "Heavy-gauge offset wire roller frame with ergonomic royal blue grip and yellow-stripe sleeve."
   },
   {
     id: "g3",
@@ -619,10 +549,10 @@ export const GALLERY_ITEMS = [
   },
   {
     id: "g6",
-    title: "Exterior Heavy Texture Green Roller",
+    title: "SCR Commercial Red-Grip Complete Roller Set",
     category: "Complete Rollers",
-    image: "/images/roller-textured-green.jpg",
-    desc: "Heavy-duty deep pile texture roller for rugged exterior masonry."
+    image: "/images/roller-pack-red-green.jpg",
+    desc: "Single-wire steel roller frame with high-grip red handle and sealed green refill sleeve."
   },
   {
     id: "g7",
