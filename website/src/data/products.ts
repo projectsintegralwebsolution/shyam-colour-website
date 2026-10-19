@@ -685,6 +685,41 @@ export const PRODUCTS: Product[] = [
       "Pattern": "Yellow body with black spiral tiger stripes",
       "Core Spec": "Thermo-fused solvent-resistant polymer"
     }
+  },
+  {
+    id: "p21",
+    slug: "ultra-fine-white-microfiber-finish-roller-refill",
+    name: "Ultra-Fine White Microfiber Finish Roller Refill",
+    category: "roller-refills",
+    categoryName: "Roller Refill Sleeves",
+    shortDesc: "High-density pure white microfiber nap refill engineered for mirror-smooth finish on interior walls and woodwork.",
+    description: "Manufactured at Shyam Colour's facility using ultra-dense lint-free virgin white microfiber that holds generous paint volume while leaving a flawless, orange-peel-free finish. Ideal for premium interior wall coatings, satin, gloss, and low-VOC paints.",
+    sizes: ["9 Inch (225 mm)", "4 Inch (100 mm)"],
+    materials: [
+      "100% thermo-bonded white microfilament pile",
+      "Solvent-resistant rigid PVC core"
+    ],
+    applications: [
+      "Interior drywall, living room walls, and ceilings",
+      "High-gloss, satin, and luxury emulsion finishes",
+      "Cabinetry, doors, and smooth woodwork",
+      "Primers, sealers, and low-VOC interior paints"
+    ],
+    features: [
+      "Zero fiber shedding ensures smooth, spray-like wall finish",
+      "High-density microfiber prevents dripping and paint spatter",
+      "Thermo-fused inner core resists moisture and mineral spirits",
+      "Beveled edge profile eliminates roller lap marks"
+    ],
+    image: "/images/roller-refill-pure-white-microfiber.jpg",
+    additionalImages: ["/images/roller-refill-white-plush.jpg", "/images/roller-refill-yellow-stripe.jpg"],
+    specifications: {
+      "Nap Height": "10 mm short-to-medium pile",
+      "Core Diameter": "38 mm standard cage/rod fit",
+      "Length": "9 Inch (225 mm)",
+      "Color": "Pure White",
+      "Fabric Type": "Thermo-bonded microfiber fleece"
+    }
   }
 ];
 
@@ -793,5 +828,12 @@ export const GALLERY_ITEMS = [
     category: "Refill Sleeves",
     image: "/images/roller-refill-tiger-stripe-yellow-black.jpg",
     desc: "Signature high-density golden-yellow plush refill with black helical spiral stripes."
+  },
+  {
+    id: "g16",
+    title: "Ultra-Fine White Microfiber Finish Refill",
+    category: "Refill Sleeves",
+    image: "/images/roller-refill-pure-white-microfiber.jpg",
+    desc: "Lint-free white microfilament sleeve for ultra-smooth wall and ceiling coatings."
   }
 ];
